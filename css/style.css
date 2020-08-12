@@ -1,0 +1,38 @@
+body {
+    background: white; /* try type yellow */
+    color: #323232;
+  
+    margin: 0;
+    height: 100vh;
+    
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Helvetica neue, roboto;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;  
+    font-size: 18px;
+  }
+  p {
+    margin: 5px 20px;
+    color: #008b95;
+  }
+  button {
+   width: 100%;
+  }
+  #container {
+    border: 3px solid #008b95;
+    padding: 40px;
+    background-color: #d4d3d3;
+  }
+  .checkbox {
+    transform: scale(1.3);
+    float: left; 
+  }
